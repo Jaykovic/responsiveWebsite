@@ -1,0 +1,50 @@
+.wrapper{
+    /* max-width: 1134px; */
+    margin: 0;
+  }
+
+  .app-section{
+    text-align: center;
+
+  }
+
+  .app-section .app-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 24px;
+  }
+
+  .app-section .app-btn{
+    padding: 16px 30px;
+    background-color: #000000;
+    color: #fff;
+    gap: 14px;
+    display: flex;
+    align-items: center;
+    min-width: 310px;
+  }
+
+  .app-section .app-btn span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  @media (max-width: 1100px) {
+    .btn{
+        padding: 12px 32px;
+    }
+
+    @media (max-width: 700px) {
+      .wrapper{
+        padding: 0 32px;
+      }
+
+      .app-section .app-buttons{
+        flex-direction: column;
+      }
+    }
+}
